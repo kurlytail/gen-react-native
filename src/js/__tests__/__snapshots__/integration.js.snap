@@ -8,11 +8,13 @@ info: Generating testoutput/.gitignore from template node_modules/@kurlytail/gen
 info: Generating testoutput/.npmignore from template node_modules/@kurlytail/gen-npm/templates/.npmignore._
 info: Generating testoutput/.prettierrc from template node_modules/@kurlytail/gen-npm/templates/.prettierrc._
 info: Generating testoutput/Jenkinsfile from template node_modules/@kurlytail/gen-npm/templates/Jenkinsfile._
-info: Generating testoutput/package.json from template node_modules/@kurlytail/gen-npm/templates/package.json._
+info: Generating testoutput/package.json from template templates/package.json._
 info: Generating testoutput/README.md from template node_modules/@kurlytail/gen-npm/templates/README.md._
 info: Generating testoutput/webpack.config.js from template node_modules/@kurlytail/gen-npm/templates/webpack.config.js._
 info: Generating testoutput/src/js/index.js from template node_modules/@kurlytail/gen-npm/templates/index.js._
 info: Generating testoutput/src/js/__tests__/integration.js from template node_modules/@kurlytail/gen-npm/templates/integration.js._
+info: Generating testoutput/.babelrc from template templates/.babelrc._
+info: Generating testoutput/haul.config.js from template templates/haul.config.js._
 "
 `;
 
@@ -24,11 +26,13 @@ info: Generating testoutput/.gitignore from template node_modules/@kurlytail/gen
 info: Generating testoutput/.npmignore from template node_modules/@kurlytail/gen-npm/templates/.npmignore._
 info: Generating testoutput/.prettierrc from template node_modules/@kurlytail/gen-npm/templates/.prettierrc._
 info: Generating testoutput/Jenkinsfile from template node_modules/@kurlytail/gen-npm/templates/Jenkinsfile._
-info: Generating testoutput/package.json from template node_modules/@kurlytail/gen-npm/templates/package.json._
+info: Generating testoutput/package.json from template templates/package.json._
 info: Generating testoutput/README.md from template node_modules/@kurlytail/gen-npm/templates/README.md._
 info: Generating testoutput/webpack.config.js from template node_modules/@kurlytail/gen-npm/templates/webpack.config.js._
 info: Generating testoutput/src/js/index.js from template node_modules/@kurlytail/gen-npm/templates/index.js._
 info: Generating testoutput/src/js/__tests__/integration.js from template node_modules/@kurlytail/gen-npm/templates/integration.js._
+info: Generating testoutput/.babelrc from template templates/.babelrc._
+info: Generating testoutput/haul.config.js from template templates/haul.config.js._
 "
 `;
 
@@ -40,11 +44,13 @@ info: Generating testoutput/.gitignore from template node_modules/@kurlytail/gen
 info: Generating testoutput/.npmignore from template node_modules/@kurlytail/gen-npm/templates/.npmignore._
 info: Generating testoutput/.prettierrc from template node_modules/@kurlytail/gen-npm/templates/.prettierrc._
 info: Generating testoutput/Jenkinsfile from template node_modules/@kurlytail/gen-npm/templates/Jenkinsfile._
-info: Generating testoutput/package.json from template node_modules/@kurlytail/gen-npm/templates/package.json._
+info: Generating testoutput/package.json from template templates/package.json._
 info: Generating testoutput/README.md from template node_modules/@kurlytail/gen-npm/templates/README.md._
 info: Generating testoutput/webpack.config.js from template node_modules/@kurlytail/gen-npm/templates/webpack.config.js._
 info: Generating testoutput/src/js/index.js from template node_modules/@kurlytail/gen-npm/templates/index.js._
 info: Generating testoutput/src/js/__tests__/integration.js from template node_modules/@kurlytail/gen-npm/templates/integration.js._
+info: Generating testoutput/.babelrc from template templates/.babelrc._
+info: Generating testoutput/haul.config.js from template templates/haul.config.js._
 "
 `;
 
@@ -56,11 +62,13 @@ info: Generating testoutput/.gitignore from template node_modules/@kurlytail/gen
 info: Generating testoutput/.npmignore from template node_modules/@kurlytail/gen-npm/templates/.npmignore._
 info: Generating testoutput/.prettierrc from template node_modules/@kurlytail/gen-npm/templates/.prettierrc._
 info: Generating testoutput/Jenkinsfile from template node_modules/@kurlytail/gen-npm/templates/Jenkinsfile._
-info: Generating testoutput/package.json from template node_modules/@kurlytail/gen-npm/templates/package.json._
+info: Generating testoutput/package.json from template templates/package.json._
 info: Generating testoutput/README.md from template node_modules/@kurlytail/gen-npm/templates/README.md._
 info: Generating testoutput/webpack.config.js from template node_modules/@kurlytail/gen-npm/templates/webpack.config.js._
 info: Generating testoutput/src/js/index.js from template node_modules/@kurlytail/gen-npm/templates/index.js._
 info: Generating testoutput/src/js/__tests__/integration.js from template node_modules/@kurlytail/gen-npm/templates/integration.js._
+info: Generating testoutput/.babelrc from template templates/.babelrc._
+info: Generating testoutput/haul.config.js from template templates/haul.config.js._
 "
 `;
 

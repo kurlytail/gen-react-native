@@ -1,1 +1,11 @@
-{}
+{
+    "package.json": {
+        "template": "package.json._"
+    },
+    ".babelrc": {
+        "template": ".babelrc._"
+    },
+    "haul.config.js": {
+        "template": "haul.config.js._"
+    }
+}

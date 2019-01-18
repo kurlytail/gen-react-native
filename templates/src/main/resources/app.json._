@@ -1,0 +1,4 @@
+{
+    "name": "<%=design.MasterDesign[0].name%>",
+    "displayName": "<%=design.MasterDesign[0].name%>"
+}

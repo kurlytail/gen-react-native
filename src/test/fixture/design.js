@@ -8,7 +8,7 @@
   },
   "_8sJVQgvhEemswplt4kY5KA": {
     "clazz": "MasterDesign",
-    "name": "fixture",
+    "name": "testoutput",
     "cell": [
       "master_cell_cella",
       "master_cell_cellb"

@@ -7,5 +7,14 @@
     },
     "haul.config.js": {
         "template": "haul.config.js._"
+    },
+    "src/js/app.js": {
+        "template": "src/js/app.js._"
+    },
+    "src/js/index.js": {
+        "template": "src/js/index.js._"
+    },
+    "src/main/resources/app.json": {
+        "template": "src/main/resources/app.json._"
     }
 }

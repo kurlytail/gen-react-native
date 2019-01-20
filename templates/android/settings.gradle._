@@ -1,0 +1,3 @@
+rootProject.name = '<%=design.MasterDesign[0].name%>'
+
+include ':app'

@@ -29,12 +29,12 @@ describe('# integration test', () => {
     });
 
     it('## should generate design and run react-native commands', () => {
-        execSync('react-native init testoutput');
+        //execSync('react-native init testoutput');
         let output = execSync(
             './scripts/sgen-react-native.sh -d src/test/fixture/design.js -o testoutput --overwrite=merge'
         ).toString();
         expect(output).toMatchSnapshot();
         output = execSync('npm install', { cwd: 'testoutput' }).toString();
-        output = execSync('npm run lint', { cwd: 'testoutput' }).toString();
+        output = execSync('npm run build-ios', { cwd: 'testoutput' }).toString();
     });
 });

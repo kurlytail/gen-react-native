@@ -57,8 +57,9 @@
         "clean": "rimraf ./docs ./dist ./coverage test-report.xml"
     },
     "dependencies": {
-        "@kurlytail/gen-lib": "^0.0.25",
-        "@kurlytail/gen-npm": "0.0.42"
+        "@kurlytail/gen-lib": "^0.0.35",
+        "@kurlytail/gen-npm": "0.0.42",
+        "uuid": "^3.3.2"
     },
     "bin": {
         "sgen-react-native": "scripts/sgen-react-native.sh"

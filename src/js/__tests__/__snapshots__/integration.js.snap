@@ -14,9 +14,6 @@ info: Generating testoutput/webpack.config.js from template node_modules/@kurlyt
 info: Generating testoutput/src/js/index.js from template node_modules/@kurlytail/gen-npm/templates/index.js._
 info: Generating testoutput/src/js/__tests__/integration.js from template node_modules/@kurlytail/gen-npm/templates/integration.js._
 info: Generating testoutput/.babelrc from template templates/.babelrc._
-info: Generating testoutput/app.json from template templates/app.json._
-info: Generating testoutput/App.js from template templates/App.js._
-info: Generating testoutput/index.js from template templates/index.js._
 info: Generating testoutput/android/app/proguard-rules.pro from template templates/android/app/proguard-rules.pro._
 info: Generating testoutput/android/app/BUCK from template templates/android/app/BUCK._
 info: Generating testoutput/android/app/build.gradle from template templates/android/app/build.gradle._
@@ -75,9 +72,6 @@ info: Generating testoutput/webpack.config.js from template node_modules/@kurlyt
 info: Generating testoutput/src/js/index.js from template node_modules/@kurlytail/gen-npm/templates/index.js._
 info: Generating testoutput/src/js/__tests__/integration.js from template node_modules/@kurlytail/gen-npm/templates/integration.js._
 info: Generating testoutput/.babelrc from template templates/.babelrc._
-info: Generating testoutput/app.json from template templates/app.json._
-info: Generating testoutput/App.js from template templates/App.js._
-info: Generating testoutput/index.js from template templates/index.js._
 info: Generating testoutput/android/app/proguard-rules.pro from template templates/android/app/proguard-rules.pro._
 info: Generating testoutput/android/app/BUCK from template templates/android/app/BUCK._
 info: Generating testoutput/android/app/build.gradle from template templates/android/app/build.gradle._
@@ -136,9 +130,6 @@ info: Generating testoutput/webpack.config.js from template node_modules/@kurlyt
 info: Generating testoutput/src/js/index.js from template node_modules/@kurlytail/gen-npm/templates/index.js._
 info: Generating testoutput/src/js/__tests__/integration.js from template node_modules/@kurlytail/gen-npm/templates/integration.js._
 info: Generating testoutput/.babelrc from template templates/.babelrc._
-info: Generating testoutput/app.json from template templates/app.json._
-info: Generating testoutput/App.js from template templates/App.js._
-info: Generating testoutput/index.js from template templates/index.js._
 info: Generating testoutput/android/app/proguard-rules.pro from template templates/android/app/proguard-rules.pro._
 info: Generating testoutput/android/app/BUCK from template templates/android/app/BUCK._
 info: Generating testoutput/android/app/build.gradle from template templates/android/app/build.gradle._
@@ -197,9 +188,6 @@ info: Generating testoutput/webpack.config.js from template node_modules/@kurlyt
 info: Generating testoutput/src/js/index.js from template node_modules/@kurlytail/gen-npm/templates/index.js._
 info: Generating testoutput/src/js/__tests__/integration.js from template node_modules/@kurlytail/gen-npm/templates/integration.js._
 info: Generating testoutput/.babelrc from template templates/.babelrc._
-info: Generating testoutput/app.json from template templates/app.json._
-info: Generating testoutput/App.js from template templates/App.js._
-info: Generating testoutput/index.js from template templates/index.js._
 info: Generating testoutput/android/app/proguard-rules.pro from template templates/android/app/proguard-rules.pro._
 info: Generating testoutput/android/app/BUCK from template templates/android/app/BUCK._
 info: Generating testoutput/android/app/build.gradle from template templates/android/app/build.gradle._

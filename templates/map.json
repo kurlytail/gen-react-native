@@ -5,17 +5,8 @@
     ".babelrc": {
         "template": ".babelrc._"
     },
-    "app.json": {
-        "template": "app.json._"
-    },
-    "App.js": {
-        "template": "App.js._"
-    },
     ".gitignore": {
         "template": ".gitignore._"
-    },
-    "index.js": {
-        "template": "index.js._"
     },
     "android/app/proguard-rules.pro": { "template": "android/app/proguard-rules.pro._" },
     "android/app/BUCK": { "template": "android/app/BUCK._" },

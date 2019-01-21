@@ -8,6 +8,18 @@
     ".gitignore": {
         "template": ".gitignore._"
     },
+    "webpack.config.js": {
+        "template": "webpack.config.js._"
+    },
+    "App.js": {
+        "template": "App.js._"
+    },
+    "index.js": {
+        "template": "index.js._"
+    },
+    "app.json": {
+        "template": "app.json._"
+    },
     "android/app/proguard-rules.pro": { "template": "android/app/proguard-rules.pro._" },
     "android/app/BUCK": { "template": "android/app/BUCK._" },
     "android/app/build.gradle": { "template": "android/app/build.gradle._" },

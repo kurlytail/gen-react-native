@@ -5,80 +5,23 @@
     "scripts": {
         "test": "jest",
         "docs": "jsdoc -c jsdoc.json && npx opn-cli ./docs/index.html",
-        "build": "NODE_ENV=\"debug\" webpack --display-modules --display-reasons",
-        "build-release": "NODE_ENV=\"production\" webpack --display-modules --display-reasons",
         "lint": "eslint src",
         "clean": "rimraf ./docs ./dist ./coverage test-report.xml",
-        "build-ios": "cd ios; RCT_NO_LAUNCH_PACKAGER=yes xcodebuild -project testoutput.xcodeproj -configuration Debug -scheme testoutput -destination id=FF7A2EA6-0D75-427F-A17C-757B0235F319 -derivedDataPath build"
+        "build-ios-debug": "cd ios; RCT_NO_LAUNCH_PACKAGER=yes xcodebuild -project testoutput.xcodeproj -configuration Debug -scheme testoutput -destination id=FF7A2EA6-0D75-427F-A17C-757B0235F319 -derivedDataPath build",
+        "build-ios-release": "cd ios; RCT_NO_LAUNCH_PACKAGER=yes xcodebuild -project testoutput.xcodeproj -configuration Release -scheme testoutput -destination id=FF7A2EA6-0D75-427F-A17C-757B0235F319 -derivedDataPath build",
+        "run-ios": "react-native run-ios"
     },
     "devDependencies": {
-        "babel-jest": "^23.6.0",
-        "jest": "^23.6.0",
-        "react-test-renderer": "16.6.3",
-        "babel-cli": "^6.26.0",
-        "babel-core": "^6.26.0",
-        "babel-eslint": "^8.0.1",
-        "babel-jest": "^23.6.0",
-        "babel-loader": "^7.1.2",
-        "babel-plugin-module-resolver": "^3.1.1",
-        "babel-plugin-transform-class-properties": "^6.24.1",
-        "babel-plugin-transform-object-rest-spread": "^6.26.0",
-        "babel-preset-env": "^1.6.1",
-        "babel-preset-react": "^6.24.1",
-        "babel-register": "^6.26.0",
-        "chalk": "^2.3.0",
-        "circular-dependency-plugin": "^4.2.1",
-        "css-loader": "^0.28.7",
-        "eslint": "^4.19.1",
-        "eslint-config-airbnb": "^17.1.0",
-        "eslint-config-prettier": "^2.6.0",
-        "eslint-import-resolver-babel-module": "^4.0.0",
-        "eslint-loader": "^1.9.0",
-        "eslint-plugin-babel": "^4.1.2",
-        "eslint-plugin-import": "^2.14.0",
-        "eslint-plugin-jest": "^21.2.0",
-        "eslint-plugin-jsx-a11y": "^6.1.1",
-        "eslint-plugin-prettier": "^2.3.1",
-        "eslint-plugin-react": "^7.11.1",
-        "exports-loader": "^0.7.0",
-        "file-loader": "^1.1.6",
-        "imports-loader": "^0.8.0",
-        "jest-junit": "^5.2.0",
+        "babel-jest": "23.6.0",
+        "jest": "23.6.0",
         "jest-junit-reporter": "^1.1.0",
-        "jest-localstorage-mock": "^2.2.0",
-        "jsdoc": "^3.5.5",
-        "less": "^2.7.3",
-        "less-loader": "^4.0.5",
-        "lodash": "^4.17.4",
-        "opn-cli": "^3.1.0",
-        "prettier": "^1.7.4",
-        "redux": "^3.7.2",
-        "redux-actions": "^2.2.1",
-        "redux-cli-logger": "^2.0.0",
-        "redux-devtools-extension": "^2.13.2",
-        "redux-logger": "^3.0.6",
-        "redux-saga": "^0.16.0",
-        "redux-thunk": "^2.2.0",
-        "rimraf": "^2.6.2",
-        "source-map-loader": "^0.2.3",
-        "source-map-support": "^0.5.0",
-        "stacked-menu": "^1.1.9",
-        "style-loader": "^0.19.1",
-        "uglify-es": "^3.1.8",
-        "uglify-es-webpack-plugin": "^0.10.0",
-        "uuid": "^3.1.0",
-        "webpack": "^3.5.5",
-        "webpack-dev-server": "^2.9.7",
-        "react": "16.6.3",
-        "react-native": "0.57.8"
+        "metro-react-native-babel-preset": "0.51.1",
+        "react-test-renderer": "16.6.3"
     },
     "jest": {
         "testResultsProcessor": "./node_modules/jest-junit-reporter",
         "moduleDirectories": [
             "node_modules"
-        ],
-        "roots": [
-            "src/js"
         ],
         "collectCoverage": true,
         "coverageReporters": [
@@ -89,8 +32,16 @@
             "src/js/**/*.{js,jsx}",
             "!**/node_modules/**"
         ],
-        "setupFiles": [
-            "jest-localstorage-mock"
+        "preset": "react-native",
+        "transform": {
+            "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+        },
+        "transformIgnorePatterns": [
+            "node_modules/(?!(react-native)/)"
         ]
+    },
+    "dependencies": {
+        "react": "16.6.3",
+        "react-native": "0.57.8"
     }
 }

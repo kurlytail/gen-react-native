@@ -1,5 +1,7 @@
 import { execSync } from 'child_process';
 
+
+
 describe('# integration test', () => {
     beforeEach(() => {
         execSync('rm -rf testoutput');
@@ -11,9 +13,7 @@ describe('# integration test', () => {
     });
 
     it('## should generate design', () => {
-        const output = execSync(
-            './scripts/sgen-react-native.sh -d src/test/fixture/design.js -o testoutput'
-        ).toString();
+        const output = execSync('./scripts/sgen-react-native.sh -d src/test/fixture/design.js -o testoutput').toString();
         expect(output).toMatchSnapshot();
     });
 
@@ -34,6 +34,6 @@ describe('# integration test', () => {
         ).toString();
         expect(output).toMatchSnapshot();
         output = execSync('npm install', { cwd: 'testoutput' }).toString();
-        output = execSync('npm test', { cwd: 'testoutput' }).toString();
+        output = execSync('npm run lint', { cwd: 'testoutput' }).toString();
     });
 });

@@ -1,3 +1,4 @@
+
 {
     "name": "@kurlytail/gen-react-native",
     "description": "REACT-NATIVE project generator",
@@ -57,9 +58,8 @@
         "clean": "rimraf ./docs ./dist ./coverage test-report.xml"
     },
     "dependencies": {
-        "@kurlytail/gen-lib": "^0.0.35",
-        "@kurlytail/gen-npm": "0.0.42",
-        "uuid": "^3.3.2"
+        "@kurlytail/gen-lib": "^0.0.42",
+        "nodegit": "^0.24.0"
     },
     "bin": {
         "sgen-react-native": "scripts/sgen-react-native.sh"

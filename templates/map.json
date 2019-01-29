@@ -11,6 +11,18 @@
     "webpack.config.js": {
         "template": "webpack.config.js._"
     },
+    ".editorconfig" : {
+        "template": ".editorconfig._"
+    },
+    ".eslintignore" : {
+        "template": ".eslintignore._"
+    },
+    ".eslintrc.js" : {
+        "template": ".eslintrc.js._"
+    },
+    ".prettierrc" : {
+        "template": ".prettierrc._"
+    },
     "App.js": {
         "template": "App.js._"
     },
@@ -19,6 +31,9 @@
     },
     "app.json": {
         "template": "app.json._"
+    },
+    "src/js/index.js": {
+        "template": "src/js/index.js._"
     },
     "android/app/proguard-rules.pro": { "template": "android/app/proguard-rules.pro._" },
     "android/app/BUCK": { "template": "android/app/BUCK._" },
@@ -92,7 +107,7 @@
     "ios/<%=design.MasterDesign[0].name%>/Info.plist": {
         "template": "ios/PROJECTNAME/Info.plist._"
     },
-    "ios/<%=design.MasterDesign[0].name%>Tests/TESTOUTPUTTests.m": {
+    "ios/<%=design.MasterDesign[0].name%>Tests/<%=design.MasterDesign[0].name%>Tests.m": {
         "template": "ios/PROJECTNAMETests/TESTOUTPUTTests.m._"
     },
     "ios/<%=design.MasterDesign[0].name%>Tests/Info.plist": {

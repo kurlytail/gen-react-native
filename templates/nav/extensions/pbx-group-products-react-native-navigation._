@@ -1,0 +1,9 @@
+               CFC847E72200630400D11885 /* Products */ = {
+                       isa = PBXGroup;
+                       children = (
+                               CFC848112200630400D11885 /* libReactNativeNavigation.a */,
+                               CFC848132200630400D11885 /* ReactNativeNavigationTests.xctest */,
+                       );
+                       name = Products;
+                       sourceTree = "<group>";
+               };

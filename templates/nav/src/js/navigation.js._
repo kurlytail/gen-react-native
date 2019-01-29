@@ -1,0 +1,21 @@
+<%
+    const navigationScreens = lodash.filter(design.MasterCell, cell => !cell.external);
+%>
+import { Navigation } from 'react-native-navigation';
+import {
+<%=
+_.map(navigationScreens, cell => '    ' + lodash.upperFirst(lodash.camelCase(cell.name)) + 'Screen').join(',\n')
+%>
+} from './screens';
+
+
+function registerScreens() {<%
+_.each(navigationScreens, screen => {
+    const className = lodash.upperFirst(lodash.camelCase(screen.name)) + 'Screen';
+%>
+    Navigation.registerComponent('<%=className%>', () => <%=className%>);<%
+});
+%>
+}
+
+export default registerScreens;

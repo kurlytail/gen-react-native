@@ -1,0 +1,32 @@
+{
+<%    _.each(design.MasterCell, (cell, key) => {
+        if(cell.external) return;
+
+        const className = lodash.upperFirst(lodash.camelCase(cell.name)) + 'Screen';
+%>
+    "src/js/screens/<%=className%>.js" : {
+        "template": "src/js/screens/screen.js._",
+        "context" : <%=JSON.stringify(Object.assign({}, {
+            className : className,
+            key: key
+        }))%>
+    },
+<%
+    });
+%>
+    "src/js/navigation.js" : {
+        "template": "src/js/navigation.js._"
+    },
+    "src/js/screens/index.js": {
+        "template": "src/js/screens/index.js._"
+    },
+    "App.js": {
+        "template": "App.js._"
+    },
+    "index.js": {
+        "template": "index.js._"
+    },
+    "ios/<%=design.MasterDesign[0].name%>/AppDelegate.m": {
+        "template": "ios/PROJECTNAME/AppDelegate.m._"
+    }
+}

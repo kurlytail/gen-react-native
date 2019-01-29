@@ -1,0 +1,15 @@
+<%
+const navigationScreens = lodash.filter(design.MasterCell, cell => !cell.external);
+_.each(navigationScreens, screen => {
+    const className = lodash.upperFirst(lodash.camelCase(screen.name)) + 'Screen';
+%>
+import <%=className%> from './<%=className%>';
+<%
+});
+%>
+
+export {
+<%=
+_.map(navigationScreens, cell => '    ' + lodash.upperFirst(lodash.camelCase(cell.name)) + 'Screen').join(',\n')
+%>
+};

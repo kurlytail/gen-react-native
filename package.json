@@ -1,4 +1,3 @@
-
 {
     "name": "@kurlytail/gen-react-native",
     "description": "REACT-NATIVE project generator",
@@ -62,6 +61,7 @@
         "nodegit": "^0.24.0"
     },
     "bin": {
-        "sgen-react-native": "scripts/sgen-react-native.sh"
+        "sgen-react-native": "scripts/sgen-react-native.sh",
+        "sgen-react-native-nav": "scripts/sgen-react-native-nav.sh"
     }
 }

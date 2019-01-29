@@ -1,14 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`# integration test ## should generate design 1`] = `
+exports[`# sgen-react-native integration test ## should generate design 1`] = `
 "info: Initializing git repository testoutput/.git
 info: Generating testoutput/package.json from template templates/package.json._
 info: Generating testoutput/.babelrc from template templates/.babelrc._
 info: Generating testoutput/.gitignore from template templates/.gitignore._
 info: Generating testoutput/webpack.config.js from template templates/webpack.config.js._
+info: Generating testoutput/.editorconfig from template templates/.editorconfig._
+info: Generating testoutput/.eslintignore from template templates/.eslintignore._
+info: Generating testoutput/.eslintrc.js from template templates/.eslintrc.js._
+info: Generating testoutput/.prettierrc from template templates/.prettierrc._
 info: Generating testoutput/App.js from template templates/App.js._
 info: Generating testoutput/index.js from template templates/index.js._
 info: Generating testoutput/app.json from template templates/app.json._
+info: Generating testoutput/src/js/index.js from template templates/src/js/index.js._
 info: Generating testoutput/android/app/proguard-rules.pro from template templates/android/app/proguard-rules.pro._
 info: Generating testoutput/android/app/BUCK from template templates/android/app/BUCK._
 info: Generating testoutput/android/app/build.gradle from template templates/android/app/build.gradle._
@@ -43,7 +48,7 @@ info: Generating testoutput/ios/fixture/Images.xcassets/AppIcon.appiconset/Conte
 info: Generating testoutput/ios/fixture/Images.xcassets/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/Contents.json._
 info: Generating testoutput/ios/fixture/AppDelegate.m from template templates/ios/PROJECTNAME/AppDelegate.m._
 info: Generating testoutput/ios/fixture/Info.plist from template templates/ios/PROJECTNAME/Info.plist._
-info: Generating testoutput/ios/fixtureTests/TESTOUTPUTTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
+info: Generating testoutput/ios/fixtureTests/fixtureTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
 info: Generating testoutput/ios/fixtureTests/Info.plist from template templates/ios/PROJECTNAMETests/Info.plist._
 info: Generating testoutput/ios/fixture-tvOSTests/Info.plist from template templates/ios/PROJECTNAME-tvOSTests/Info.plist._
 info: Generating testoutput/ios/fixture.xcodeproj/project.pbxproj from template templates/ios/PROJECTNAME.xcodeproj/project.pbxproj._
@@ -59,15 +64,20 @@ info: sgen is done
 "
 `;
 
-exports[`# integration test ## should generate design and run react-native commands 1`] = `
+exports[`# sgen-react-native integration test ## should generate design and run react-native commands 1`] = `
 "info: Initializing git repository testoutput/.git
 info: Generating testoutput/package.json from template templates/package.json._
 info: Generating testoutput/.babelrc from template templates/.babelrc._
 info: Generating testoutput/.gitignore from template templates/.gitignore._
 info: Generating testoutput/webpack.config.js from template templates/webpack.config.js._
+info: Generating testoutput/.editorconfig from template templates/.editorconfig._
+info: Generating testoutput/.eslintignore from template templates/.eslintignore._
+info: Generating testoutput/.eslintrc.js from template templates/.eslintrc.js._
+info: Generating testoutput/.prettierrc from template templates/.prettierrc._
 info: Generating testoutput/App.js from template templates/App.js._
 info: Generating testoutput/index.js from template templates/index.js._
 info: Generating testoutput/app.json from template templates/app.json._
+info: Generating testoutput/src/js/index.js from template templates/src/js/index.js._
 info: Generating testoutput/android/app/proguard-rules.pro from template templates/android/app/proguard-rules.pro._
 info: Generating testoutput/android/app/BUCK from template templates/android/app/BUCK._
 info: Generating testoutput/android/app/build.gradle from template templates/android/app/build.gradle._
@@ -102,7 +112,7 @@ info: Generating testoutput/ios/fixture/Images.xcassets/AppIcon.appiconset/Conte
 info: Generating testoutput/ios/fixture/Images.xcassets/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/Contents.json._
 info: Generating testoutput/ios/fixture/AppDelegate.m from template templates/ios/PROJECTNAME/AppDelegate.m._
 info: Generating testoutput/ios/fixture/Info.plist from template templates/ios/PROJECTNAME/Info.plist._
-info: Generating testoutput/ios/fixtureTests/TESTOUTPUTTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
+info: Generating testoutput/ios/fixtureTests/fixtureTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
 info: Generating testoutput/ios/fixtureTests/Info.plist from template templates/ios/PROJECTNAMETests/Info.plist._
 info: Generating testoutput/ios/fixture-tvOSTests/Info.plist from template templates/ios/PROJECTNAME-tvOSTests/Info.plist._
 info: Generating testoutput/ios/fixture.xcodeproj/project.pbxproj from template templates/ios/PROJECTNAME.xcodeproj/project.pbxproj._
@@ -118,15 +128,20 @@ info: sgen is done
 "
 `;
 
-exports[`# integration test ## should generate design with merge 1`] = `
+exports[`# sgen-react-native integration test ## should generate design with merge 1`] = `
 "info: Initializing git repository testoutput/.git
 info: Generating testoutput/package.json from template templates/package.json._
 info: Generating testoutput/.babelrc from template templates/.babelrc._
 info: Generating testoutput/.gitignore from template templates/.gitignore._
 info: Generating testoutput/webpack.config.js from template templates/webpack.config.js._
+info: Generating testoutput/.editorconfig from template templates/.editorconfig._
+info: Generating testoutput/.eslintignore from template templates/.eslintignore._
+info: Generating testoutput/.eslintrc.js from template templates/.eslintrc.js._
+info: Generating testoutput/.prettierrc from template templates/.prettierrc._
 info: Generating testoutput/App.js from template templates/App.js._
 info: Generating testoutput/index.js from template templates/index.js._
 info: Generating testoutput/app.json from template templates/app.json._
+info: Generating testoutput/src/js/index.js from template templates/src/js/index.js._
 info: Generating testoutput/android/app/proguard-rules.pro from template templates/android/app/proguard-rules.pro._
 info: Generating testoutput/android/app/BUCK from template templates/android/app/BUCK._
 info: Generating testoutput/android/app/build.gradle from template templates/android/app/build.gradle._
@@ -161,7 +176,7 @@ info: Generating testoutput/ios/fixture/Images.xcassets/AppIcon.appiconset/Conte
 info: Generating testoutput/ios/fixture/Images.xcassets/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/Contents.json._
 info: Generating testoutput/ios/fixture/AppDelegate.m from template templates/ios/PROJECTNAME/AppDelegate.m._
 info: Generating testoutput/ios/fixture/Info.plist from template templates/ios/PROJECTNAME/Info.plist._
-info: Generating testoutput/ios/fixtureTests/TESTOUTPUTTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
+info: Generating testoutput/ios/fixtureTests/fixtureTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
 info: Generating testoutput/ios/fixtureTests/Info.plist from template templates/ios/PROJECTNAMETests/Info.plist._
 info: Generating testoutput/ios/fixture-tvOSTests/Info.plist from template templates/ios/PROJECTNAME-tvOSTests/Info.plist._
 info: Generating testoutput/ios/fixture.xcodeproj/project.pbxproj from template templates/ios/PROJECTNAME.xcodeproj/project.pbxproj._
@@ -177,7 +192,7 @@ info: sgen is done
 "
 `;
 
-exports[`# integration test ## should generate design with merge 2`] = `
+exports[`# sgen-react-native integration test ## should generate design with merge 2`] = `
 "info: Opening git repository testoutput/.git
 warn: Ignoring error Error: cannot stash changes - there is nothing to stash.
 info: Attempting to use branch master-sgen-generated
@@ -186,9 +201,14 @@ info: Generating testoutput/package.json from template templates/package.json._
 info: Generating testoutput/.babelrc from template templates/.babelrc._
 info: Generating testoutput/.gitignore from template templates/.gitignore._
 info: Generating testoutput/webpack.config.js from template templates/webpack.config.js._
+info: Generating testoutput/.editorconfig from template templates/.editorconfig._
+info: Generating testoutput/.eslintignore from template templates/.eslintignore._
+info: Generating testoutput/.eslintrc.js from template templates/.eslintrc.js._
+info: Generating testoutput/.prettierrc from template templates/.prettierrc._
 info: Generating testoutput/App.js from template templates/App.js._
 info: Generating testoutput/index.js from template templates/index.js._
 info: Generating testoutput/app.json from template templates/app.json._
+info: Generating testoutput/src/js/index.js from template templates/src/js/index.js._
 info: Generating testoutput/android/app/proguard-rules.pro from template templates/android/app/proguard-rules.pro._
 info: Generating testoutput/android/app/BUCK from template templates/android/app/BUCK._
 info: Generating testoutput/android/app/build.gradle from template templates/android/app/build.gradle._
@@ -223,7 +243,7 @@ info: Generating testoutput/ios/fixture/Images.xcassets/AppIcon.appiconset/Conte
 info: Generating testoutput/ios/fixture/Images.xcassets/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/Contents.json._
 info: Generating testoutput/ios/fixture/AppDelegate.m from template templates/ios/PROJECTNAME/AppDelegate.m._
 info: Generating testoutput/ios/fixture/Info.plist from template templates/ios/PROJECTNAME/Info.plist._
-info: Generating testoutput/ios/fixtureTests/TESTOUTPUTTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
+info: Generating testoutput/ios/fixtureTests/fixtureTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
 info: Generating testoutput/ios/fixtureTests/Info.plist from template templates/ios/PROJECTNAMETests/Info.plist._
 info: Generating testoutput/ios/fixture-tvOSTests/Info.plist from template templates/ios/PROJECTNAME-tvOSTests/Info.plist._
 info: Generating testoutput/ios/fixture.xcodeproj/project.pbxproj from template templates/ios/PROJECTNAME.xcodeproj/project.pbxproj._
@@ -238,7 +258,340 @@ info: sgen is done
 "
 `;
 
-exports[`# integration test ## should print help options 1`] = `
+exports[`# sgen-react-native integration test ## should print help options 1`] = `
+"Usage:
+  node sgen [OPTION]
+
+Options:
+  -m, --map=ARG+       mapping files
+  -d, --design=ARG+    design files
+  -e, --extension=ARG+ extension directories or files
+  -o, --output=ARG     output directory for generated files
+      --overwrite=ARG  Overwrite modes, can be one of skip, regen, error or merge                         (default: skip)
+      --forceOverwrite Override overwrite flags in the generator map with the one provided on --overwrite
+  -h, --help           display this help
+"
+`;
+
+exports[`# sgen-react-native-nav integration test ## should generate design 1`] = `
+"info: Initializing git repository testoutput/.git
+info: loading extension ./scripts/../templates/nav/extensions/package-dependencies-react-native-navigation._
+info: Generating testoutput/package.json from template templates/package.json._
+info: Generating testoutput/.babelrc from template templates/.babelrc._
+info: Generating testoutput/.gitignore from template templates/.gitignore._
+info: Generating testoutput/webpack.config.js from template templates/webpack.config.js._
+info: Generating testoutput/.editorconfig from template templates/.editorconfig._
+info: Generating testoutput/.eslintignore from template templates/.eslintignore._
+info: Generating testoutput/.eslintrc.js from template templates/.eslintrc.js._
+info: Generating testoutput/.prettierrc from template templates/.prettierrc._
+info: Generating testoutput/App.js from template templates/nav/App.js._
+info: Generating testoutput/index.js from template templates/nav/index.js._
+info: Generating testoutput/app.json from template templates/app.json._
+info: Generating testoutput/src/js/index.js from template templates/src/js/index.js._
+info: Generating testoutput/android/app/proguard-rules.pro from template templates/android/app/proguard-rules.pro._
+info: Generating testoutput/android/app/BUCK from template templates/android/app/BUCK._
+info: Generating testoutput/android/app/build.gradle from template templates/android/app/build.gradle._
+info: Generating testoutput/android/app/src/main/res/mipmap-mdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-mdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-hdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-hdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/values/styles.xml from template templates/android/app/src/main/res/values/styles.xml._
+info: Generating testoutput/android/app/src/main/res/values/strings.xml from template templates/android/app/src/main/res/values/strings.xml._
+info: Generating testoutput/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/AndroidManifest.xml from template templates/android/app/src/main/AndroidManifest.xml._
+info: Generating testoutput/android/app/src/main/java/com/projectname/MainApplication.java from template templates/android/app/src/main/java/com/projectname/MainApplication.java._
+info: Generating testoutput/android/app/src/main/java/com/projectname/MainActivity.java from template templates/android/app/src/main/java/com/projectname/MainActivity.java._
+info: Generating testoutput/android/gradle/wrapper/gradle-wrapper.jar from template templates/android/gradle/wrapper/gradle-wrapper.jar._
+info: Generating testoutput/android/gradle/wrapper/gradle-wrapper.properties from template templates/android/gradle/wrapper/gradle-wrapper.properties._
+info: Generating testoutput/android/gradlew from template templates/android/gradlew._
+info: Generating testoutput/android/keystores/debug.keystore.properties from template templates/android/keystores/debug.keystore.properties._
+info: Generating testoutput/android/keystores/BUCK from template templates/android/keystores/BUCK._
+info: Generating testoutput/android/build.gradle from template templates/android/build.gradle._
+info: Generating testoutput/android/gradle.properties from template templates/android/gradle.properties._
+info: Generating testoutput/android/gradlew.bat from template templates/android/gradlew.bat._
+info: Generating testoutput/android/settings.gradle from template templates/android/settings.gradle._
+info: Generating testoutput/ios/nav/AppDelegate.h from template templates/ios/PROJECTNAME/AppDelegate.h._
+info: Generating testoutput/ios/nav/Base.lproj/LaunchScreen.xib from template templates/ios/PROJECTNAME/Base.lproj/LaunchScreen.xib._
+info: Generating testoutput/ios/nav/main.m from template templates/ios/PROJECTNAME/main.m._
+info: Generating testoutput/ios/nav/Images.xcassets/AppIcon.appiconset/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/AppIcon.appiconset/Contents.json._
+info: Generating testoutput/ios/nav/Images.xcassets/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/Contents.json._
+info: Generating testoutput/ios/nav/AppDelegate.m from template templates/nav/ios/PROJECTNAME/AppDelegate.m._
+info: Generating testoutput/ios/nav/Info.plist from template templates/ios/PROJECTNAME/Info.plist._
+info: Generating testoutput/ios/navTests/navTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
+info: Generating testoutput/ios/navTests/Info.plist from template templates/ios/PROJECTNAMETests/Info.plist._
+info: Generating testoutput/ios/nav-tvOSTests/Info.plist from template templates/ios/PROJECTNAME-tvOSTests/Info.plist._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-build-file-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-container-item-proxy-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-file-reference-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-frameworks-build-phase-frameworks-files-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-group-libraries-children-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-group-products-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-project-references-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-reference-proxy-react-native-navigation._
+info: Generating testoutput/ios/nav.xcodeproj/project.pbxproj from template templates/ios/PROJECTNAME.xcodeproj/project.pbxproj._
+info: Generating testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav-tvOS.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT-tvOS.xcscheme._
+info: Generating testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT.xcscheme._
+info: Generating testoutput/ios/nav-tvOS/Info.plist from template templates/ios/PROJECTNAME-tvOS/Info.plist._
+info: Generating testoutput/src/js/screens/MainScreen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/screens/Screen3Screen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/screens/Screen2Screen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/screens/Screen1Screen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/navigation.js from template templates/nav/src/js/navigation.js._
+info: Generating testoutput/src/js/screens/index.js from template templates/nav/src/js/screens/index.js._
+info: Committed generated files
+info: Attempting to use branch master-sgen-generated
+info: Creating new branch master-sgen-generated
+warn: Checkout out branch master
+warn: Checkout out branch master
+info: sgen is done
+"
+`;
+
+exports[`# sgen-react-native-nav integration test ## should generate design and run react-native commands 1`] = `
+"info: Initializing git repository testoutput/.git
+info: loading extension ./scripts/../templates/nav/extensions/package-dependencies-react-native-navigation._
+info: Generating testoutput/package.json from template templates/package.json._
+info: Generating testoutput/.babelrc from template templates/.babelrc._
+info: Generating testoutput/.gitignore from template templates/.gitignore._
+info: Generating testoutput/webpack.config.js from template templates/webpack.config.js._
+info: Generating testoutput/.editorconfig from template templates/.editorconfig._
+info: Generating testoutput/.eslintignore from template templates/.eslintignore._
+info: Generating testoutput/.eslintrc.js from template templates/.eslintrc.js._
+info: Generating testoutput/.prettierrc from template templates/.prettierrc._
+info: Generating testoutput/App.js from template templates/nav/App.js._
+info: Generating testoutput/index.js from template templates/nav/index.js._
+info: Generating testoutput/app.json from template templates/app.json._
+info: Generating testoutput/src/js/index.js from template templates/src/js/index.js._
+info: Generating testoutput/android/app/proguard-rules.pro from template templates/android/app/proguard-rules.pro._
+info: Generating testoutput/android/app/BUCK from template templates/android/app/BUCK._
+info: Generating testoutput/android/app/build.gradle from template templates/android/app/build.gradle._
+info: Generating testoutput/android/app/src/main/res/mipmap-mdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-mdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-hdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-hdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/values/styles.xml from template templates/android/app/src/main/res/values/styles.xml._
+info: Generating testoutput/android/app/src/main/res/values/strings.xml from template templates/android/app/src/main/res/values/strings.xml._
+info: Generating testoutput/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/AndroidManifest.xml from template templates/android/app/src/main/AndroidManifest.xml._
+info: Generating testoutput/android/app/src/main/java/com/projectname/MainApplication.java from template templates/android/app/src/main/java/com/projectname/MainApplication.java._
+info: Generating testoutput/android/app/src/main/java/com/projectname/MainActivity.java from template templates/android/app/src/main/java/com/projectname/MainActivity.java._
+info: Generating testoutput/android/gradle/wrapper/gradle-wrapper.jar from template templates/android/gradle/wrapper/gradle-wrapper.jar._
+info: Generating testoutput/android/gradle/wrapper/gradle-wrapper.properties from template templates/android/gradle/wrapper/gradle-wrapper.properties._
+info: Generating testoutput/android/gradlew from template templates/android/gradlew._
+info: Generating testoutput/android/keystores/debug.keystore.properties from template templates/android/keystores/debug.keystore.properties._
+info: Generating testoutput/android/keystores/BUCK from template templates/android/keystores/BUCK._
+info: Generating testoutput/android/build.gradle from template templates/android/build.gradle._
+info: Generating testoutput/android/gradle.properties from template templates/android/gradle.properties._
+info: Generating testoutput/android/gradlew.bat from template templates/android/gradlew.bat._
+info: Generating testoutput/android/settings.gradle from template templates/android/settings.gradle._
+info: Generating testoutput/ios/nav/AppDelegate.h from template templates/ios/PROJECTNAME/AppDelegate.h._
+info: Generating testoutput/ios/nav/Base.lproj/LaunchScreen.xib from template templates/ios/PROJECTNAME/Base.lproj/LaunchScreen.xib._
+info: Generating testoutput/ios/nav/main.m from template templates/ios/PROJECTNAME/main.m._
+info: Generating testoutput/ios/nav/Images.xcassets/AppIcon.appiconset/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/AppIcon.appiconset/Contents.json._
+info: Generating testoutput/ios/nav/Images.xcassets/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/Contents.json._
+info: Generating testoutput/ios/nav/AppDelegate.m from template templates/nav/ios/PROJECTNAME/AppDelegate.m._
+info: Generating testoutput/ios/nav/Info.plist from template templates/ios/PROJECTNAME/Info.plist._
+info: Generating testoutput/ios/navTests/navTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
+info: Generating testoutput/ios/navTests/Info.plist from template templates/ios/PROJECTNAMETests/Info.plist._
+info: Generating testoutput/ios/nav-tvOSTests/Info.plist from template templates/ios/PROJECTNAME-tvOSTests/Info.plist._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-build-file-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-container-item-proxy-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-file-reference-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-frameworks-build-phase-frameworks-files-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-group-libraries-children-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-group-products-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-project-references-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-reference-proxy-react-native-navigation._
+info: Generating testoutput/ios/nav.xcodeproj/project.pbxproj from template templates/ios/PROJECTNAME.xcodeproj/project.pbxproj._
+info: Generating testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav-tvOS.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT-tvOS.xcscheme._
+info: Generating testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT.xcscheme._
+info: Generating testoutput/ios/nav-tvOS/Info.plist from template templates/ios/PROJECTNAME-tvOS/Info.plist._
+info: Generating testoutput/src/js/screens/MainScreen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/screens/Screen3Screen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/screens/Screen2Screen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/screens/Screen1Screen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/navigation.js from template templates/nav/src/js/navigation.js._
+info: Generating testoutput/src/js/screens/index.js from template templates/nav/src/js/screens/index.js._
+info: Committed generated files
+info: Attempting to use branch master-sgen-generated
+info: Creating new branch master-sgen-generated
+warn: Checkout out branch master
+warn: Checkout out branch master
+info: sgen is done
+"
+`;
+
+exports[`# sgen-react-native-nav integration test ## should generate design with merge 1`] = `
+"info: Initializing git repository testoutput/.git
+info: loading extension ./scripts/../templates/nav/extensions/package-dependencies-react-native-navigation._
+info: Generating testoutput/package.json from template templates/package.json._
+info: Generating testoutput/.babelrc from template templates/.babelrc._
+info: Generating testoutput/.gitignore from template templates/.gitignore._
+info: Generating testoutput/webpack.config.js from template templates/webpack.config.js._
+info: Generating testoutput/.editorconfig from template templates/.editorconfig._
+info: Generating testoutput/.eslintignore from template templates/.eslintignore._
+info: Generating testoutput/.eslintrc.js from template templates/.eslintrc.js._
+info: Generating testoutput/.prettierrc from template templates/.prettierrc._
+info: Generating testoutput/App.js from template templates/nav/App.js._
+info: Generating testoutput/index.js from template templates/nav/index.js._
+info: Generating testoutput/app.json from template templates/app.json._
+info: Generating testoutput/src/js/index.js from template templates/src/js/index.js._
+info: Generating testoutput/android/app/proguard-rules.pro from template templates/android/app/proguard-rules.pro._
+info: Generating testoutput/android/app/BUCK from template templates/android/app/BUCK._
+info: Generating testoutput/android/app/build.gradle from template templates/android/app/build.gradle._
+info: Generating testoutput/android/app/src/main/res/mipmap-mdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-mdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-hdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-hdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/values/styles.xml from template templates/android/app/src/main/res/values/styles.xml._
+info: Generating testoutput/android/app/src/main/res/values/strings.xml from template templates/android/app/src/main/res/values/strings.xml._
+info: Generating testoutput/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/AndroidManifest.xml from template templates/android/app/src/main/AndroidManifest.xml._
+info: Generating testoutput/android/app/src/main/java/com/projectname/MainApplication.java from template templates/android/app/src/main/java/com/projectname/MainApplication.java._
+info: Generating testoutput/android/app/src/main/java/com/projectname/MainActivity.java from template templates/android/app/src/main/java/com/projectname/MainActivity.java._
+info: Generating testoutput/android/gradle/wrapper/gradle-wrapper.jar from template templates/android/gradle/wrapper/gradle-wrapper.jar._
+info: Generating testoutput/android/gradle/wrapper/gradle-wrapper.properties from template templates/android/gradle/wrapper/gradle-wrapper.properties._
+info: Generating testoutput/android/gradlew from template templates/android/gradlew._
+info: Generating testoutput/android/keystores/debug.keystore.properties from template templates/android/keystores/debug.keystore.properties._
+info: Generating testoutput/android/keystores/BUCK from template templates/android/keystores/BUCK._
+info: Generating testoutput/android/build.gradle from template templates/android/build.gradle._
+info: Generating testoutput/android/gradle.properties from template templates/android/gradle.properties._
+info: Generating testoutput/android/gradlew.bat from template templates/android/gradlew.bat._
+info: Generating testoutput/android/settings.gradle from template templates/android/settings.gradle._
+info: Generating testoutput/ios/nav/AppDelegate.h from template templates/ios/PROJECTNAME/AppDelegate.h._
+info: Generating testoutput/ios/nav/Base.lproj/LaunchScreen.xib from template templates/ios/PROJECTNAME/Base.lproj/LaunchScreen.xib._
+info: Generating testoutput/ios/nav/main.m from template templates/ios/PROJECTNAME/main.m._
+info: Generating testoutput/ios/nav/Images.xcassets/AppIcon.appiconset/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/AppIcon.appiconset/Contents.json._
+info: Generating testoutput/ios/nav/Images.xcassets/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/Contents.json._
+info: Generating testoutput/ios/nav/AppDelegate.m from template templates/nav/ios/PROJECTNAME/AppDelegate.m._
+info: Generating testoutput/ios/nav/Info.plist from template templates/ios/PROJECTNAME/Info.plist._
+info: Generating testoutput/ios/navTests/navTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
+info: Generating testoutput/ios/navTests/Info.plist from template templates/ios/PROJECTNAMETests/Info.plist._
+info: Generating testoutput/ios/nav-tvOSTests/Info.plist from template templates/ios/PROJECTNAME-tvOSTests/Info.plist._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-build-file-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-container-item-proxy-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-file-reference-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-frameworks-build-phase-frameworks-files-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-group-libraries-children-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-group-products-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-project-references-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-reference-proxy-react-native-navigation._
+info: Generating testoutput/ios/nav.xcodeproj/project.pbxproj from template templates/ios/PROJECTNAME.xcodeproj/project.pbxproj._
+info: Generating testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav-tvOS.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT-tvOS.xcscheme._
+info: Generating testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT.xcscheme._
+info: Generating testoutput/ios/nav-tvOS/Info.plist from template templates/ios/PROJECTNAME-tvOS/Info.plist._
+info: Generating testoutput/src/js/screens/MainScreen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/screens/Screen3Screen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/screens/Screen2Screen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/screens/Screen1Screen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/navigation.js from template templates/nav/src/js/navigation.js._
+info: Generating testoutput/src/js/screens/index.js from template templates/nav/src/js/screens/index.js._
+info: Committed generated files
+info: Attempting to use branch master-sgen-generated
+info: Creating new branch master-sgen-generated
+warn: Checkout out branch master
+warn: Checkout out branch master
+info: sgen is done
+"
+`;
+
+exports[`# sgen-react-native-nav integration test ## should generate design with merge 2`] = `
+"info: Opening git repository testoutput/.git
+warn: Ignoring error Error: cannot stash changes - there is nothing to stash.
+info: Attempting to use branch master-sgen-generated
+warn: Checkout out branch master-sgen-generated
+info: loading extension ./scripts/../templates/nav/extensions/package-dependencies-react-native-navigation._
+info: Generating testoutput/package.json from template templates/package.json._
+info: Generating testoutput/.babelrc from template templates/.babelrc._
+info: Generating testoutput/.gitignore from template templates/.gitignore._
+info: Generating testoutput/webpack.config.js from template templates/webpack.config.js._
+info: Generating testoutput/.editorconfig from template templates/.editorconfig._
+info: Generating testoutput/.eslintignore from template templates/.eslintignore._
+info: Generating testoutput/.eslintrc.js from template templates/.eslintrc.js._
+info: Generating testoutput/.prettierrc from template templates/.prettierrc._
+info: Generating testoutput/App.js from template templates/nav/App.js._
+info: Generating testoutput/index.js from template templates/nav/index.js._
+info: Generating testoutput/app.json from template templates/app.json._
+info: Generating testoutput/src/js/index.js from template templates/src/js/index.js._
+info: Generating testoutput/android/app/proguard-rules.pro from template templates/android/app/proguard-rules.pro._
+info: Generating testoutput/android/app/BUCK from template templates/android/app/BUCK._
+info: Generating testoutput/android/app/build.gradle from template templates/android/app/build.gradle._
+info: Generating testoutput/android/app/src/main/res/mipmap-mdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-mdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-hdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-hdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/res/values/styles.xml from template templates/android/app/src/main/res/values/styles.xml._
+info: Generating testoutput/android/app/src/main/res/values/strings.xml from template templates/android/app/src/main/res/values/strings.xml._
+info: Generating testoutput/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png._
+info: Generating testoutput/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png._
+info: Generating testoutput/android/app/src/main/AndroidManifest.xml from template templates/android/app/src/main/AndroidManifest.xml._
+info: Generating testoutput/android/app/src/main/java/com/projectname/MainApplication.java from template templates/android/app/src/main/java/com/projectname/MainApplication.java._
+info: Generating testoutput/android/app/src/main/java/com/projectname/MainActivity.java from template templates/android/app/src/main/java/com/projectname/MainActivity.java._
+info: Generating testoutput/android/gradle/wrapper/gradle-wrapper.jar from template templates/android/gradle/wrapper/gradle-wrapper.jar._
+info: Generating testoutput/android/gradle/wrapper/gradle-wrapper.properties from template templates/android/gradle/wrapper/gradle-wrapper.properties._
+info: Generating testoutput/android/gradlew from template templates/android/gradlew._
+info: Generating testoutput/android/keystores/debug.keystore.properties from template templates/android/keystores/debug.keystore.properties._
+info: Generating testoutput/android/keystores/BUCK from template templates/android/keystores/BUCK._
+info: Generating testoutput/android/build.gradle from template templates/android/build.gradle._
+info: Generating testoutput/android/gradle.properties from template templates/android/gradle.properties._
+info: Generating testoutput/android/gradlew.bat from template templates/android/gradlew.bat._
+info: Generating testoutput/android/settings.gradle from template templates/android/settings.gradle._
+info: Generating testoutput/ios/nav/AppDelegate.h from template templates/ios/PROJECTNAME/AppDelegate.h._
+info: Generating testoutput/ios/nav/Base.lproj/LaunchScreen.xib from template templates/ios/PROJECTNAME/Base.lproj/LaunchScreen.xib._
+info: Generating testoutput/ios/nav/main.m from template templates/ios/PROJECTNAME/main.m._
+info: Generating testoutput/ios/nav/Images.xcassets/AppIcon.appiconset/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/AppIcon.appiconset/Contents.json._
+info: Generating testoutput/ios/nav/Images.xcassets/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/Contents.json._
+info: Generating testoutput/ios/nav/AppDelegate.m from template templates/nav/ios/PROJECTNAME/AppDelegate.m._
+info: Generating testoutput/ios/nav/Info.plist from template templates/ios/PROJECTNAME/Info.plist._
+info: Generating testoutput/ios/navTests/navTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
+info: Generating testoutput/ios/navTests/Info.plist from template templates/ios/PROJECTNAMETests/Info.plist._
+info: Generating testoutput/ios/nav-tvOSTests/Info.plist from template templates/ios/PROJECTNAME-tvOSTests/Info.plist._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-build-file-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-container-item-proxy-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-file-reference-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-frameworks-build-phase-frameworks-files-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-group-libraries-children-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-group-products-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-project-references-react-native-navigation._
+info: loading extension ./scripts/../templates/nav/extensions/pbx-reference-proxy-react-native-navigation._
+info: Generating testoutput/ios/nav.xcodeproj/project.pbxproj from template templates/ios/PROJECTNAME.xcodeproj/project.pbxproj._
+info: Generating testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav-tvOS.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT-tvOS.xcscheme._
+info: Generating testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT.xcscheme._
+info: Generating testoutput/ios/nav-tvOS/Info.plist from template templates/ios/PROJECTNAME-tvOS/Info.plist._
+info: Generating testoutput/src/js/screens/MainScreen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/screens/Screen3Screen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/screens/Screen2Screen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/screens/Screen1Screen.js from template templates/nav/src/js/screens/screen.js._
+info: Generating testoutput/src/js/navigation.js from template templates/nav/src/js/navigation.js._
+info: Generating testoutput/src/js/screens/index.js from template templates/nav/src/js/screens/index.js._
+warn: Checkout out branch master-sgen-generated
+warn: Checkout out branch master-sgen-generated
+warn: Nothing changed in generated files
+warn: Checkout out branch master
+info: sgen is done
+"
+`;
+
+exports[`# sgen-react-native-nav integration test ## should print help options 1`] = `
 "Usage:
   node sgen [OPTION]
 

@@ -1,0 +1,14 @@
+               CFC848112200630400D11885 /* libReactNativeNavigation.a */ = {
+                       isa = PBXReferenceProxy;
+                       fileType = archive.ar;
+                       path = libReactNativeNavigation.a;
+                       remoteRef = CFC848102200630400D11885 /* PBXContainerItemProxy */;
+                       sourceTree = BUILT_PRODUCTS_DIR;
+               };
+               CFC848132200630400D11885 /* ReactNativeNavigationTests.xctest */ = {
+                       isa = PBXReferenceProxy;
+                       fileType = wrapper.cfbundle;
+                       path = ReactNativeNavigationTests.xctest;
+                       remoteRef = CFC848122200630400D11885 /* PBXContainerItemProxy */;
+                       sourceTree = BUILT_PRODUCTS_DIR;
+               };

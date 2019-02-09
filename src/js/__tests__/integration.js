@@ -17,13 +17,6 @@ describe('# sgen-react-native integration test', () => {
         expect(output).toMatchSnapshot();
     });
 
-    it('## should generate design with merge', () => {
-        let output = execSync('./scripts/sgen-react-native.sh -d src/test/fixture/design.js -o testoutput').toString();
-        expect(output).toMatchSnapshot();
-        output = execSync('./scripts/sgen-react-native.sh -d src/test/fixture/design.js -o testoutput').toString();
-        expect(output).toMatchSnapshot();
-    });
-
     it('## should generate design and run react-native commands', () => {
         let output = execSync('./scripts/sgen-react-native.sh -d src/test/fixture/design.js -o testoutput').toString();
         expect(output).toMatchSnapshot();
@@ -46,15 +39,6 @@ describe('# sgen-react-native-nav integration test', () => {
         const output = execSync(
             './scripts/sgen-react-native-nav.sh -d src/test/fixture/nav.json -o testoutput'
         ).toString();
-        expect(output).toMatchSnapshot();
-    });
-
-    it('## should generate design with merge', () => {
-        let output = execSync(
-            './scripts/sgen-react-native-nav.sh -d src/test/fixture/nav.json -o testoutput'
-        ).toString();
-        expect(output).toMatchSnapshot();
-        output = execSync('./scripts/sgen-react-native-nav.sh -d src/test/fixture/nav.json -o testoutput').toString();
         expect(output).toMatchSnapshot();
     });
 

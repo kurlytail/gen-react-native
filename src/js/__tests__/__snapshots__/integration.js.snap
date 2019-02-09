@@ -227,7 +227,7 @@ info: Generated testoutput/android/app/src/main/res/mipmap-xhdpi/ic_launcher_rou
 info: Generated testoutput/android/app/src/main/AndroidManifest.xml from template templates/android/app/src/main/AndroidManifest.xml._
 info: Generated testoutput/android/app/src/main/java/com/projectname/MainApplication.java from template templates/android/app/src/main/java/com/projectname/MainApplication.java._
 info: Generated testoutput/android/app/src/main/java/com/projectname/MainActivity.java from template templates/android/app/src/main/java/com/projectname/MainActivity.java._
-error: Unknown option merge for file testoutput/android/gradle/wrapper/gradle-wrapper.jar
+error: Not overwriting testoutput/android/gradle/wrapper/gradle-wrapper.jar, it already exists
 warn: Attempting to cleanup on error
 warn: Checkout branch master-sgen-generated
 warn: Checkout branch master-sgen-generated
@@ -525,7 +525,7 @@ info: Generated testoutput/android/app/src/main/res/mipmap-xhdpi/ic_launcher_rou
 info: Generated testoutput/android/app/src/main/AndroidManifest.xml from template templates/android/app/src/main/AndroidManifest.xml._
 info: Generated testoutput/android/app/src/main/java/com/projectname/MainApplication.java from template templates/android/app/src/main/java/com/projectname/MainApplication.java._
 info: Generated testoutput/android/app/src/main/java/com/projectname/MainActivity.java from template templates/android/app/src/main/java/com/projectname/MainActivity.java._
-error: Unknown option merge for file testoutput/android/gradle/wrapper/gradle-wrapper.jar
+error: Not overwriting testoutput/android/gradle/wrapper/gradle-wrapper.jar, it already exists
 warn: Attempting to cleanup on error
 warn: Checkout branch master-sgen-generated
 warn: Checkout branch master-sgen-generated

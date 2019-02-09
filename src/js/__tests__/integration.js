@@ -18,20 +18,14 @@ describe('# sgen-react-native integration test', () => {
     });
 
     it('## should generate design with merge', () => {
-        let output = execSync(
-            './scripts/sgen-react-native.sh -d src/test/fixture/design.js -o testoutput --overwrite=merge'
-        ).toString();
+        let output = execSync('./scripts/sgen-react-native.sh -d src/test/fixture/design.js -o testoutput').toString();
         expect(output).toMatchSnapshot();
-        output = execSync(
-            './scripts/sgen-react-native.sh -d src/test/fixture/design.js -o testoutput --overwrite=merge'
-        ).toString();
+        output = execSync('./scripts/sgen-react-native.sh -d src/test/fixture/design.js -o testoutput').toString();
         expect(output).toMatchSnapshot();
     });
 
     it('## should generate design and run react-native commands', () => {
-        let output = execSync(
-            './scripts/sgen-react-native.sh -d src/test/fixture/design.js -o testoutput --overwrite=merge'
-        ).toString();
+        let output = execSync('./scripts/sgen-react-native.sh -d src/test/fixture/design.js -o testoutput').toString();
         expect(output).toMatchSnapshot();
         output = execSync('npm install', { cwd: 'testoutput' }).toString();
         output = execSync('npm run lint', { cwd: 'testoutput' }).toString();
@@ -57,18 +51,16 @@ describe('# sgen-react-native-nav integration test', () => {
 
     it('## should generate design with merge', () => {
         let output = execSync(
-            './scripts/sgen-react-native-nav.sh -d src/test/fixture/nav.json -o testoutput --overwrite=merge'
+            './scripts/sgen-react-native-nav.sh -d src/test/fixture/nav.json -o testoutput'
         ).toString();
         expect(output).toMatchSnapshot();
-        output = execSync(
-            './scripts/sgen-react-native-nav.sh -d src/test/fixture/nav.json -o testoutput --overwrite=merge'
-        ).toString();
+        output = execSync('./scripts/sgen-react-native-nav.sh -d src/test/fixture/nav.json -o testoutput').toString();
         expect(output).toMatchSnapshot();
     });
 
     it('## should generate design and run react-native commands', () => {
         let output = execSync(
-            './scripts/sgen-react-native-nav.sh -d src/test/fixture/nav.json -o testoutput --overwrite=merge'
+            './scripts/sgen-react-native-nav.sh -d src/test/fixture/nav.json -o testoutput'
         ).toString();
         expect(output).toMatchSnapshot();
         output = execSync('npm install', { cwd: 'testoutput' }).toString();

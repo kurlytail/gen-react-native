@@ -1,2 +1,0 @@
-
-# gen-react-native

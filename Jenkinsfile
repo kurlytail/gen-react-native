@@ -29,7 +29,7 @@ pipeline {
 
         stage ('NPM Build') {
             agent {
-                label 'node-build'
+                label 'ios'
             }
 
             steps {

@@ -1,7 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`# sgen-react-native integration test ## should generate design 1`] = `
-"info: Initializing git repository testoutput/.git
+"info: loading map templates/map.json
+info: Initializing git repository testoutput/.git
 info: Generated testoutput/package.json from template templates/package.json._
 info: Generated testoutput/.babelrc from template templates/.babelrc._
 info: Generated testoutput/.gitignore from template templates/.gitignore._
@@ -65,7 +66,8 @@ info: sgen is done
 `;
 
 exports[`# sgen-react-native integration test ## should generate design and run react-native commands 1`] = `
-"info: Initializing git repository testoutput/.git
+"info: loading map templates/map.json
+info: Initializing git repository testoutput/.git
 info: Generated testoutput/package.json from template templates/package.json._
 info: Generated testoutput/.babelrc from template templates/.babelrc._
 info: Generated testoutput/.gitignore from template templates/.gitignore._
@@ -144,8 +146,10 @@ Options:
 `;
 
 exports[`# sgen-react-native-nav integration test ## should generate design 1`] = `
-"info: Initializing git repository testoutput/.git
-info: loading extension ./scripts/../templates/nav/extensions/package-dependencies-react-native-navigation._
+"info: loading map templates/map.json
+info: loading map templates/nav/map.json
+info: Initializing git repository testoutput/.git
+info: loading extension templates/nav/extensions/package-dependencies-react-native-navigation._
 info: Generated testoutput/package.json from template templates/package.json._
 info: Generated testoutput/.babelrc from template templates/.babelrc._
 info: Generated testoutput/.gitignore from template templates/.gitignore._
@@ -195,14 +199,14 @@ info: Generated testoutput/ios/nav/Info.plist from template templates/ios/PROJEC
 info: Generated testoutput/ios/navTests/navTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
 info: Generated testoutput/ios/navTests/Info.plist from template templates/ios/PROJECTNAMETests/Info.plist._
 info: Generated testoutput/ios/nav-tvOSTests/Info.plist from template templates/ios/PROJECTNAME-tvOSTests/Info.plist._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-build-file-react-native-navigation._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-container-item-proxy-react-native-navigation._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-file-reference-react-native-navigation._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-frameworks-build-phase-frameworks-files-react-native-navigation._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-group-libraries-children-react-native-navigation._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-group-products-react-native-navigation._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-project-references-react-native-navigation._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-reference-proxy-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-build-file-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-container-item-proxy-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-file-reference-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-frameworks-build-phase-frameworks-files-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-group-libraries-children-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-group-products-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-project-references-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-reference-proxy-react-native-navigation._
 info: Generated testoutput/ios/nav.xcodeproj/project.pbxproj from template templates/ios/PROJECTNAME.xcodeproj/project.pbxproj._
 info: Generated testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav-tvOS.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT-tvOS.xcscheme._
 info: Generated testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT.xcscheme._
@@ -223,8 +227,10 @@ info: sgen is done
 `;
 
 exports[`# sgen-react-native-nav integration test ## should generate design and run react-native commands 1`] = `
-"info: Initializing git repository testoutput/.git
-info: loading extension ./scripts/../templates/nav/extensions/package-dependencies-react-native-navigation._
+"info: loading map templates/map.json
+info: loading map templates/nav/map.json
+info: Initializing git repository testoutput/.git
+info: loading extension templates/nav/extensions/package-dependencies-react-native-navigation._
 info: Generated testoutput/package.json from template templates/package.json._
 info: Generated testoutput/.babelrc from template templates/.babelrc._
 info: Generated testoutput/.gitignore from template templates/.gitignore._
@@ -274,14 +280,14 @@ info: Generated testoutput/ios/nav/Info.plist from template templates/ios/PROJEC
 info: Generated testoutput/ios/navTests/navTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
 info: Generated testoutput/ios/navTests/Info.plist from template templates/ios/PROJECTNAMETests/Info.plist._
 info: Generated testoutput/ios/nav-tvOSTests/Info.plist from template templates/ios/PROJECTNAME-tvOSTests/Info.plist._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-build-file-react-native-navigation._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-container-item-proxy-react-native-navigation._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-file-reference-react-native-navigation._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-frameworks-build-phase-frameworks-files-react-native-navigation._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-group-libraries-children-react-native-navigation._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-group-products-react-native-navigation._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-project-references-react-native-navigation._
-info: loading extension ./scripts/../templates/nav/extensions/pbx-reference-proxy-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-build-file-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-container-item-proxy-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-file-reference-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-frameworks-build-phase-frameworks-files-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-group-libraries-children-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-group-products-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-project-references-react-native-navigation._
+info: loading extension templates/nav/extensions/pbx-reference-proxy-react-native-navigation._
 info: Generated testoutput/ios/nav.xcodeproj/project.pbxproj from template templates/ios/PROJECTNAME.xcodeproj/project.pbxproj._
 info: Generated testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav-tvOS.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT-tvOS.xcscheme._
 info: Generated testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT.xcscheme._

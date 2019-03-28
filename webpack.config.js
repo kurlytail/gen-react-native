@@ -82,7 +82,7 @@ if (showConfigOnly) {
 const configLib = Object.assign({}, config, {
     externals: [nodeExternals()],
     entry: {
-        react-native: './src/js/index.js'
+        'react-native': './src/js/index.js'
     }
 });
 

@@ -1,7 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`# sgen-react-native integration test ## should generate design 1`] = `
-"info: loading map templates/map.json
+"info: Loaded generator /Users/ashwin/pmgr/gen-react-native/dist/react-native.min.js@0.0.1
+info: loading map templates/map.json
 info: Initializing git repository testoutput/.git
 info: Generated testoutput/package.json from template templates/package.json._
 info: Generated testoutput/.babelrc from template templates/.babelrc._
@@ -66,7 +67,8 @@ info: sgen is done
 `;
 
 exports[`# sgen-react-native integration test ## should generate design and run react-native commands 1`] = `
-"info: loading map templates/map.json
+"
+info: loading map templates/map.json
 info: Initializing git repository testoutput/.git
 info: Generated testoutput/package.json from template templates/package.json._
 info: Generated testoutput/.babelrc from template templates/.babelrc._
@@ -139,185 +141,7 @@ Options:
   -d, --design=ARG+    design files
   -e, --extension=ARG+ extension directories or files
   -o, --output=ARG     output directory for generated files
-      --overwrite=ARG  Overwrite modes, can be one of skip, regen, error                                  (default: error)
-      --forceOverwrite Override overwrite flags in the generator map with the one provided on --overwrite
-  -h, --help           display this help
-"
-`;
-
-exports[`# sgen-react-native-nav integration test ## should generate design 1`] = `
-"info: loading map templates/map.json
-info: loading map templates/nav/map.json
-info: Initializing git repository testoutput/.git
-info: loading extension templates/nav/extensions/package-dependencies-react-native-navigation._
-info: Generated testoutput/package.json from template templates/package.json._
-info: Generated testoutput/.babelrc from template templates/.babelrc._
-info: Generated testoutput/.gitignore from template templates/.gitignore._
-info: Generated testoutput/webpack.config.js from template templates/webpack.config.js._
-info: Generated testoutput/.editorconfig from template templates/.editorconfig._
-info: Generated testoutput/.eslintignore from template templates/.eslintignore._
-info: Generated testoutput/.eslintrc.js from template templates/.eslintrc.js._
-info: Generated testoutput/.prettierrc from template templates/.prettierrc._
-info: Generated testoutput/App.js from template templates/nav/App.js._
-info: Generated testoutput/index.js from template templates/nav/index.js._
-info: Generated testoutput/app.json from template templates/app.json._
-info: Generated testoutput/src/js/index.js from template templates/src/js/index.js._
-info: Generated testoutput/android/app/proguard-rules.pro from template templates/android/app/proguard-rules.pro._
-info: Generated testoutput/android/app/BUCK from template templates/android/app/BUCK._
-info: Generated testoutput/android/app/build.gradle from template templates/android/app/build.gradle._
-info: Generated testoutput/android/app/src/main/res/mipmap-mdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-mdpi/ic_launcher.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-hdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-hdpi/ic_launcher.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png._
-info: Generated testoutput/android/app/src/main/res/values/styles.xml from template templates/android/app/src/main/res/values/styles.xml._
-info: Generated testoutput/android/app/src/main/res/values/strings.xml from template templates/android/app/src/main/res/values/strings.xml._
-info: Generated testoutput/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png._
-info: Generated testoutput/android/app/src/main/AndroidManifest.xml from template templates/android/app/src/main/AndroidManifest.xml._
-info: Generated testoutput/android/app/src/main/java/com/projectname/MainApplication.java from template templates/android/app/src/main/java/com/projectname/MainApplication.java._
-info: Generated testoutput/android/app/src/main/java/com/projectname/MainActivity.java from template templates/android/app/src/main/java/com/projectname/MainActivity.java._
-info: Generated testoutput/android/gradle/wrapper/gradle-wrapper.jar from template templates/android/gradle/wrapper/gradle-wrapper.jar._
-info: Generated testoutput/android/gradle/wrapper/gradle-wrapper.properties from template templates/android/gradle/wrapper/gradle-wrapper.properties._
-info: Generated testoutput/android/gradlew from template templates/android/gradlew._
-info: Generated testoutput/android/keystores/debug.keystore.properties from template templates/android/keystores/debug.keystore.properties._
-info: Generated testoutput/android/keystores/BUCK from template templates/android/keystores/BUCK._
-info: Generated testoutput/android/build.gradle from template templates/android/build.gradle._
-info: Generated testoutput/android/gradle.properties from template templates/android/gradle.properties._
-info: Generated testoutput/android/gradlew.bat from template templates/android/gradlew.bat._
-info: Generated testoutput/android/settings.gradle from template templates/android/settings.gradle._
-info: Generated testoutput/ios/nav/AppDelegate.h from template templates/ios/PROJECTNAME/AppDelegate.h._
-info: Generated testoutput/ios/nav/Base.lproj/LaunchScreen.xib from template templates/ios/PROJECTNAME/Base.lproj/LaunchScreen.xib._
-info: Generated testoutput/ios/nav/main.m from template templates/ios/PROJECTNAME/main.m._
-info: Generated testoutput/ios/nav/Images.xcassets/AppIcon.appiconset/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/AppIcon.appiconset/Contents.json._
-info: Generated testoutput/ios/nav/Images.xcassets/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/Contents.json._
-info: Generated testoutput/ios/nav/AppDelegate.m from template templates/nav/ios/PROJECTNAME/AppDelegate.m._
-info: Generated testoutput/ios/nav/Info.plist from template templates/ios/PROJECTNAME/Info.plist._
-info: Generated testoutput/ios/navTests/navTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
-info: Generated testoutput/ios/navTests/Info.plist from template templates/ios/PROJECTNAMETests/Info.plist._
-info: Generated testoutput/ios/nav-tvOSTests/Info.plist from template templates/ios/PROJECTNAME-tvOSTests/Info.plist._
-info: loading extension templates/nav/extensions/pbx-build-file-react-native-navigation._
-info: loading extension templates/nav/extensions/pbx-container-item-proxy-react-native-navigation._
-info: loading extension templates/nav/extensions/pbx-file-reference-react-native-navigation._
-info: loading extension templates/nav/extensions/pbx-frameworks-build-phase-frameworks-files-react-native-navigation._
-info: loading extension templates/nav/extensions/pbx-group-libraries-children-react-native-navigation._
-info: loading extension templates/nav/extensions/pbx-group-products-react-native-navigation._
-info: loading extension templates/nav/extensions/pbx-project-references-react-native-navigation._
-info: loading extension templates/nav/extensions/pbx-reference-proxy-react-native-navigation._
-info: Generated testoutput/ios/nav.xcodeproj/project.pbxproj from template templates/ios/PROJECTNAME.xcodeproj/project.pbxproj._
-info: Generated testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav-tvOS.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT-tvOS.xcscheme._
-info: Generated testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT.xcscheme._
-info: Generated testoutput/ios/nav-tvOS/Info.plist from template templates/ios/PROJECTNAME-tvOS/Info.plist._
-info: Generated testoutput/src/js/screens/MainScreen.js from template templates/nav/src/js/screens/screen.js._
-info: Generated testoutput/src/js/screens/Screen3Screen.js from template templates/nav/src/js/screens/screen.js._
-info: Generated testoutput/src/js/screens/Screen2Screen.js from template templates/nav/src/js/screens/screen.js._
-info: Generated testoutput/src/js/screens/Screen1Screen.js from template templates/nav/src/js/screens/screen.js._
-info: Generated testoutput/src/js/navigation.js from template templates/nav/src/js/navigation.js._
-info: Generated testoutput/src/js/screens/index.js from template templates/nav/src/js/screens/index.js._
-info: Committed generated files
-info: Attempting to use branch master-sgen-generated
-info: Creating new branch master-sgen-generated
-warn: Checkout branch master
-warn: Checkout branch master
-info: sgen is done
-"
-`;
-
-exports[`# sgen-react-native-nav integration test ## should generate design and run react-native commands 1`] = `
-"info: loading map templates/map.json
-info: loading map templates/nav/map.json
-info: Initializing git repository testoutput/.git
-info: loading extension templates/nav/extensions/package-dependencies-react-native-navigation._
-info: Generated testoutput/package.json from template templates/package.json._
-info: Generated testoutput/.babelrc from template templates/.babelrc._
-info: Generated testoutput/.gitignore from template templates/.gitignore._
-info: Generated testoutput/webpack.config.js from template templates/webpack.config.js._
-info: Generated testoutput/.editorconfig from template templates/.editorconfig._
-info: Generated testoutput/.eslintignore from template templates/.eslintignore._
-info: Generated testoutput/.eslintrc.js from template templates/.eslintrc.js._
-info: Generated testoutput/.prettierrc from template templates/.prettierrc._
-info: Generated testoutput/App.js from template templates/nav/App.js._
-info: Generated testoutput/index.js from template templates/nav/index.js._
-info: Generated testoutput/app.json from template templates/app.json._
-info: Generated testoutput/src/js/index.js from template templates/src/js/index.js._
-info: Generated testoutput/android/app/proguard-rules.pro from template templates/android/app/proguard-rules.pro._
-info: Generated testoutput/android/app/BUCK from template templates/android/app/BUCK._
-info: Generated testoutput/android/app/build.gradle from template templates/android/app/build.gradle._
-info: Generated testoutput/android/app/src/main/res/mipmap-mdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-mdpi/ic_launcher.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-hdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-hdpi/ic_launcher.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png._
-info: Generated testoutput/android/app/src/main/res/values/styles.xml from template templates/android/app/src/main/res/values/styles.xml._
-info: Generated testoutput/android/app/src/main/res/values/strings.xml from template templates/android/app/src/main/res/values/strings.xml._
-info: Generated testoutput/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png from template templates/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png._
-info: Generated testoutput/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png from template templates/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png._
-info: Generated testoutput/android/app/src/main/AndroidManifest.xml from template templates/android/app/src/main/AndroidManifest.xml._
-info: Generated testoutput/android/app/src/main/java/com/projectname/MainApplication.java from template templates/android/app/src/main/java/com/projectname/MainApplication.java._
-info: Generated testoutput/android/app/src/main/java/com/projectname/MainActivity.java from template templates/android/app/src/main/java/com/projectname/MainActivity.java._
-info: Generated testoutput/android/gradle/wrapper/gradle-wrapper.jar from template templates/android/gradle/wrapper/gradle-wrapper.jar._
-info: Generated testoutput/android/gradle/wrapper/gradle-wrapper.properties from template templates/android/gradle/wrapper/gradle-wrapper.properties._
-info: Generated testoutput/android/gradlew from template templates/android/gradlew._
-info: Generated testoutput/android/keystores/debug.keystore.properties from template templates/android/keystores/debug.keystore.properties._
-info: Generated testoutput/android/keystores/BUCK from template templates/android/keystores/BUCK._
-info: Generated testoutput/android/build.gradle from template templates/android/build.gradle._
-info: Generated testoutput/android/gradle.properties from template templates/android/gradle.properties._
-info: Generated testoutput/android/gradlew.bat from template templates/android/gradlew.bat._
-info: Generated testoutput/android/settings.gradle from template templates/android/settings.gradle._
-info: Generated testoutput/ios/nav/AppDelegate.h from template templates/ios/PROJECTNAME/AppDelegate.h._
-info: Generated testoutput/ios/nav/Base.lproj/LaunchScreen.xib from template templates/ios/PROJECTNAME/Base.lproj/LaunchScreen.xib._
-info: Generated testoutput/ios/nav/main.m from template templates/ios/PROJECTNAME/main.m._
-info: Generated testoutput/ios/nav/Images.xcassets/AppIcon.appiconset/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/AppIcon.appiconset/Contents.json._
-info: Generated testoutput/ios/nav/Images.xcassets/Contents.json from template templates/ios/PROJECTNAME/Images.xcassets/Contents.json._
-info: Generated testoutput/ios/nav/AppDelegate.m from template templates/nav/ios/PROJECTNAME/AppDelegate.m._
-info: Generated testoutput/ios/nav/Info.plist from template templates/ios/PROJECTNAME/Info.plist._
-info: Generated testoutput/ios/navTests/navTests.m from template templates/ios/PROJECTNAMETests/TESTOUTPUTTests.m._
-info: Generated testoutput/ios/navTests/Info.plist from template templates/ios/PROJECTNAMETests/Info.plist._
-info: Generated testoutput/ios/nav-tvOSTests/Info.plist from template templates/ios/PROJECTNAME-tvOSTests/Info.plist._
-info: loading extension templates/nav/extensions/pbx-build-file-react-native-navigation._
-info: loading extension templates/nav/extensions/pbx-container-item-proxy-react-native-navigation._
-info: loading extension templates/nav/extensions/pbx-file-reference-react-native-navigation._
-info: loading extension templates/nav/extensions/pbx-frameworks-build-phase-frameworks-files-react-native-navigation._
-info: loading extension templates/nav/extensions/pbx-group-libraries-children-react-native-navigation._
-info: loading extension templates/nav/extensions/pbx-group-products-react-native-navigation._
-info: loading extension templates/nav/extensions/pbx-project-references-react-native-navigation._
-info: loading extension templates/nav/extensions/pbx-reference-proxy-react-native-navigation._
-info: Generated testoutput/ios/nav.xcodeproj/project.pbxproj from template templates/ios/PROJECTNAME.xcodeproj/project.pbxproj._
-info: Generated testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav-tvOS.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT-tvOS.xcscheme._
-info: Generated testoutput/ios/nav.xcodeproj/xcshareddata/xcschemes/nav.xcscheme from template templates/ios/PROJECTNAME.xcodeproj/xcshareddata/xcschemes/TESTOUTPUT.xcscheme._
-info: Generated testoutput/ios/nav-tvOS/Info.plist from template templates/ios/PROJECTNAME-tvOS/Info.plist._
-info: Generated testoutput/src/js/screens/MainScreen.js from template templates/nav/src/js/screens/screen.js._
-info: Generated testoutput/src/js/screens/Screen3Screen.js from template templates/nav/src/js/screens/screen.js._
-info: Generated testoutput/src/js/screens/Screen2Screen.js from template templates/nav/src/js/screens/screen.js._
-info: Generated testoutput/src/js/screens/Screen1Screen.js from template templates/nav/src/js/screens/screen.js._
-info: Generated testoutput/src/js/navigation.js from template templates/nav/src/js/navigation.js._
-info: Generated testoutput/src/js/screens/index.js from template templates/nav/src/js/screens/index.js._
-info: Committed generated files
-info: Attempting to use branch master-sgen-generated
-info: Creating new branch master-sgen-generated
-warn: Checkout branch master
-warn: Checkout branch master
-info: sgen is done
-"
-`;
-
-exports[`# sgen-react-native-nav integration test ## should print help options 1`] = `
-"Usage:
-  node sgen [OPTION]
-
-Options:
-  -m, --map=ARG+       mapping files
-  -d, --design=ARG+    design files
-  -e, --extension=ARG+ extension directories or files
-  -o, --output=ARG     output directory for generated files
-      --overwrite=ARG  Overwrite modes, can be one of skip, regen, error                                  (default: error)
-      --forceOverwrite Override overwrite flags in the generator map with the one provided on --overwrite
+  -g, --generator=ARG+ generators to be used
   -h, --help           display this help
 "
 `;
